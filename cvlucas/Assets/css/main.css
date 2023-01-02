@@ -32,7 +32,7 @@ body {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #00c853;
+    background: #56699B;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -44,7 +44,7 @@ body {
     line-height: 0;
   }
   .back-to-top:hover {
-    background: #00c853;
+    background: #56699B;
     color: #010101;
   }
   .back-to-top.active {
@@ -86,7 +86,7 @@ body {
     display: block;
     width: 50px;
     height: 3px;
-    background: #00c853;
+    background: #56699B;
     bottom: 0;
     left: 0;
   }
@@ -108,7 +108,7 @@ body {
   .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid #00c853;
+    border-left: 2px solid #56699B;
     position: relative;
   }
   .resume .resume-item h4 {
@@ -146,7 +146,7 @@ body {
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid #00c853;
+    border: 2px solid #56699B;
   }
 
   @media (min-width: 1024px) {
@@ -185,7 +185,7 @@ body {
   .about .content ul i {
     font-size: 16px;
     margin-right: 5px;
-    color: #00c853;
+    color: #56699B;
     line-height: 0;
   }
   .about .content p:last-child {
@@ -225,7 +225,7 @@ body {
     color: #fff;
     padding-bottom: 4px;
     letter-spacing: 1px;
-    border-bottom: 3px solid #00c853;
+    border-bottom: 3px solid #56699B;
   }
   @media (min-width: 1024px) {
     #hero {
@@ -260,7 +260,7 @@ body {
   }
   .contact .info i {
     font-size: 20px;
-    color: #00c853;
+    color: #56699B;
     float: left;
     width: 44px;
     height: 44px;
@@ -305,11 +305,11 @@ body {
     margin-right: 10px;
   }
   .contact .info .social-links a:hover {
-    background: #00c853;
+    background: #56699B;
     color: #fff;
   }
   .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-    background: #00c853;
+    background: #56699B;
     color: #111923;
   }
   .contact .php-email-form {
@@ -342,7 +342,7 @@ body {
   .contact .php-email-form .sent-message {
     display: none;
     color: #fff;
-    background: #18d26e;
+    background: #56699B;
     text-align: center;
     padding: 15px;
     font-weight: 600;
@@ -360,7 +360,7 @@ body {
     width: 24px;
     height: 24px;
     margin: 0 10px -6px 0;
-    border: 3px solid #18d26e;
+    border: 3px solid #56699B;
     border-top-color: #eee;
     -webkit-animation: animate-loading 1s linear infinite;
     animation: animate-loading 1s linear infinite;
@@ -383,7 +383,7 @@ body {
     padding: 10px 15px;
   }
   .contact .php-email-form button[type=submit] {
-    background: #00c853;
+    background: #56699B;
     border: 0;
     padding: 10px 24px;
     color: #fff;
@@ -392,7 +392,7 @@ body {
   }
   .contact .php-email-form button[type=submit]:hover {
     background: #111923;
-    color: #00c853
+    color: #56699B
   }
   @-webkit-keyframes animate-loading {
     0% {
@@ -418,7 +418,7 @@ body {
   #footer .links .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #00c853;
+    background: #56699B;
     color: #040b14;
     line-height: 1;
     padding: 8px 0;
@@ -431,6 +431,6 @@ body {
   }
   #footer .links .social-links a:hover {
     background: #040b14;
-    color: #00c853;
+    color: #56699B;
     text-decoration: none;
   }
