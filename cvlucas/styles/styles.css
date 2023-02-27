@@ -1,0 +1,362 @@
+body{
+    background-color: #F4ECDF;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 3vh;
+}
+
+.titles{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5vh;
+}
+
+.blanco{
+    color: white;
+}
+
+.espacioparaimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .foto{
+    width: 300px;
+    transform: scaleX(-1);
+    padding-bottom: 50px;
+    border-radius: 50%;
+    margin-bottom: 13vh;
+  }
+
+  .foto:hover{
+
+    animation-duration: 0.5s;
+    animation-name: animacion-nombre;
+        width: 310px;
+      margin-bottom: 15vh;
+  }
+  @keyframes animacion-nombre {
+    from{
+      width: 300px;
+      margin-bottom: 13vh;
+    }
+    to{
+      width: 310px;
+      margin-bottom: 15vh;
+    }
+  }
+
+  .circulofoto{
+    background-color: #56699b;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid #fff;
+    margin-top: 20vh;
+  }
+
+  @media (max-width: 575px) {
+    .circulofoto{
+      margin-top: 25vh;
+    }
+  }
+  .circulofoto:hover{
+    background-color: #272341;
+    border: none
+    
+  }
+
+  .aboutp{
+    margin-top: 20vh;
+    text-align: center;
+    padding-bottom: 10vh;
+  }
+
+.about{
+    background-color: #6E84B9;
+    height: 120vh;
+}
+
+@media (max-width: 575.98px)and (orientation:portrait) {
+    .about{
+        height: 200vh;
+    }
+ }
+
+ @media (min-width: 576px) and (max-width: 991.98px){
+    .about{
+        height: 200vh;
+    }
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+.icons > img{
+    width: 5vw;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+@media (max-width: 575.98px)and (orientation:portrait) {
+    .icons > img{
+        width: 11vw;
+    }
+ }
+
+ @media (min-width: 576px) and (max-width: 675px) and (orientation:portrait) {
+    .icons > img{
+        width: 11vw;
+    }
+}
+
+@media (min-width: 614px) and (max-width: 900px)  {
+    .icons > img{
+        width: 10vw;
+    }
+}
+
+
+.icons > img:hover{
+    -webkit-filter: none;
+    filter: none;
+}
+
+.acordeon{
+    padding: 2em ;
+    max-width: 120em;
+    width: 90%;
+}
+
+.acordeon .bloque{
+    border: 2px solid #dadada;
+}
+.acordeon .bloque:hover{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.acordeon .tituloacordeon{
+    padding: 1em;
+
+}
+
+.acordeon .contenido{
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: all 1s ease;
+    padding-left: 2vw;
+}
+
+.acordeon .bloque.activo .contenido{
+    height: 13em;
+}
+
+.resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5vh;
+}
+
+.skills{
+    background-color: #6E84B9;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.habilidades{
+    padding-bottom: 3.5vh;
+}
+
+.carta{
+    margin: 3vh
+}
+
+.azul{
+    color: #272341;
+}
+
+.experiencia{
+    height: 80vh;
+}
+
+@media (max-width: 575.98px)and (orientation:portrait) {
+    .experiencia{
+        height: 120vh;
+    }
+ }
+
+ @media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+    .experiencia{
+        height: 110vh;
+    }
+}
+
+/* CONTACTO */
+
+.contact-form-wrapper {
+    padding: 100px 0;
+  }
+  
+  .contact-form {
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    max-width: 400px;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .contact-form .form-input,
+  .form-text-area {
+    background-color: #f0f4f5;
+    height: 50px;
+    padding-left: 16px;
+  }
+  
+  .contact-form .form-text-area {
+    background-color: #f0f4f5;
+    height: auto;
+    padding-left: 16px;
+  }
+  
+  .contact-form .form-control::placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+    opacity: 1;
+  }
+  
+  .contact-form .form-control:-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+  }
+  
+  .contact-form .form-control::-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+  }
+  
+  .contact-form .form-control:focus {
+    border-color: #272341;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #272341;
+  }
+  
+  .contact-form .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .contact-form .description {
+    color: #aeb4b9;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .contact-form .submit-button-wrapper {
+    text-align: center;
+  }
+  
+  .contact-form .submit-button-wrapper input {
+    border: none;
+    border-radius: 4px;
+    background-color: #272341;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  
+  .contact-form .submit-button-wrapper input:hover {
+    background-color: #56699b;
+  }
+  
+  .contact{
+    background-color: #56699b;
+  }
+
+  /* footer */
+
+  footer{
+    background: #faf5f5;
+    padding: 20px 0;
+  }
+  
+  .footer_container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .logo{
+    width: 180px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social_media a{
+    text-decoration: none;
+  }
+  
+  .social_media a i{
+    margin: 0.5vw;
+    color: #56699b;
+    font-size: 24px;
+    text-decoration: none;
+    transition: .6s;
+  }
+  
+  .social_media a i:hover{
+    color: #272341;
+  }
+  h1{
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .logo > a {
+    text-decoration: none;  
+  }
+
+  .logo > a >p{
+    color: #56699b;
+  }
+
+  .logo > a >p:hover{
+    color: #272341;
+    cursor: pointer;
+  }
